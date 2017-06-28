@@ -21,7 +21,6 @@ dev-perl/File-Which:pwhich - Install dev-perl/App-pwhich which used to be a part
 dev-perl/GD:animgif - Enable animated gif support
 dev-perl/Graphics-ColorNames:recommended - Install recommended support modules
 dev-perl/HTML-Mason:modperl - Enable www-apache/mod_perl support
-dev-perl/HTTP-Entity-Parser:xs - Install C-Based dependieces for faster performance
 dev-perl/Lab-Measurement:xpression - Install the Xpression measurement framework
 dev-perl/Mail-IMAPClient:md5 - Install support for DIGEST-MD5 and CRAM-MD5 Authentication
 dev-perl/Mail-IMAPClient:ntlm - Install support for NTLM Authentication
@@ -39,6 +38,5 @@ dev-perl/Panotools-Script:gui - Installs GUIs for some tools
 dev-perl/Sub-Name:suggested - Install extra dependencies needed for extended regression tests
 dev-perl/Sysadm-Install:hammer - Enable hammer() funtion to run a command in the shell and simulate a user hammering the ENTER key to accept defaults on prompts
 dev-perl/Test-Warnings:suggested - Install optional dependencies for extra tests
-dev-perl/WWW-Form-UrlEncoded:xs - Install C-Based dependieces for faster performance
 dev-perl/perl-headers:debug - Add source locations in generated .ph files to assist with debugging when errors occur
 dev-perl/perl-headers:sizeof-warning - Include logic to warn when a .ph file tries to use a sizeof() that is unknown
