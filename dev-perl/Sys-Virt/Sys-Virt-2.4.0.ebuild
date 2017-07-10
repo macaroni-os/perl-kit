@@ -1,6 +1,5 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=6
 
@@ -21,6 +20,7 @@ DEPEND="${RDEPEND}
 		dev-perl/XML-XPath
 		virtual/perl-Time-HiRes
 	)"
+PATCHES=( "${FILESDIR}/no-dot-inc.patch" )
 
 src_compile() {
 	MAKEOPTS+=" -j1" perl-module_src_compile

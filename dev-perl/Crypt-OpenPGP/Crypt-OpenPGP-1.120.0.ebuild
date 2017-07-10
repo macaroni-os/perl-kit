@@ -1,6 +1,5 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=6
 
@@ -11,7 +10,7 @@ inherit perl-module
 DESCRIPTION="Pure-Perl OpenPGP-compatible PGP implementation"
 
 SLOT="0"
-KEYWORDS="~amd64 ~x86 ~x86-solaris"
+KEYWORDS="amd64 x86 ~x86-solaris"
 IUSE="test"
 
 # Note: Don't depend on Alt::, non Alt:: works for now
