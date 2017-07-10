@@ -1,5 +1,6 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+# $Id$
 
 EAPI=5
 
@@ -11,7 +12,7 @@ inherit perl-module
 DESCRIPTION="Generic Perl function result caching system"
 
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="alpha amd64 hppa ia64 ppc sparc x86 ~amd64-linux ~x86-linux ~x86-macos"
 IUSE=""
 
 SRC_TEST=do

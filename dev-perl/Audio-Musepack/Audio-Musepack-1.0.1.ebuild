@@ -1,5 +1,6 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+# $Id$
 
 EAPI=5
 MODULE_AUTHOR=DANIEL
@@ -15,9 +16,3 @@ RDEPEND="${COMMON_DEPEND}"
 DEPEND="${COMMON_DEPEND}"
 
 SRC_TEST="do parallel"
-
-src_prepare() {
-	sed -i -e 's/use inc::Module::Install;/use lib q[.]; use inc::Module::Install;/' Makefile.PL ||
-		die "Can't patch Makefile.PL for 5.26 dot-in-inc"
-	perl-module_src_prepare
-}

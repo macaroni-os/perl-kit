@@ -1,4 +1,5 @@
 #!/sbin/openrc-run
+# $Id$
 
 NAME="perlbal"
 BINARY="/usr/bin/perlbal"

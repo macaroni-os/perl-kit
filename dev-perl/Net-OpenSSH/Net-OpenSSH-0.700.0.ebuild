@@ -1,5 +1,6 @@
 # Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+# $Id$
 
 EAPI=6
 
@@ -10,7 +11,7 @@ inherit perl-module
 DESCRIPTION="Net::OpenSSH, Perl wrapper for OpenSSH secure shell client"
 
 SLOT="0"
-KEYWORDS="amd64 ~hppa ~sparc x86"
+KEYWORDS="amd64 ~hppa x86"
 IUSE="minimal"
 
 RDEPEND="

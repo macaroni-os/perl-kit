@@ -1,5 +1,6 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+# $Id$
 
 EAPI=6
 
@@ -16,5 +17,6 @@ RDEPEND="dev-libs/expat
 	>=dev-perl/XML-SAX-0.960.0"
 DEPEND="${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
-	test? ( virtual/perl-Test
+	test? ( virtual/perl-ExtUtils-Command
+		virtual/perl-Test
 		virtual/perl-Test-Harness )"

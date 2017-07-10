@@ -1,4 +1,5 @@
 #!/sbin/openrc-run
+# $Id$
 
 NAME="mogstored"
 BINARY="/usr/bin/mogstored"

@@ -1,5 +1,6 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+# $Id$
 
 EAPI=5
 
@@ -15,7 +16,7 @@ IUSE=""
 
 RDEPEND="
 	dev-libs/libunique:1
-	dev-perl/Gtk2
+	dev-perl/gtk2-perl
 "
 DEPEND="${RDEPEND}
 	dev-perl/glib-perl

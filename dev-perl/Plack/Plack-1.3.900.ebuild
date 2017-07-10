@@ -1,5 +1,6 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+# $Id$
 
 EAPI=6
 
@@ -10,7 +11,7 @@ inherit perl-module
 DESCRIPTION="Perl Superglue for Web frameworks and Web Servers (PSGI toolkit)"
 
 SLOT="0"
-KEYWORDS="~alpha amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="test minimal examples"
 PATCHES=(
 	"${FILESDIR}/${P}-issue-545.patch"

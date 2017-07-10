@@ -1,5 +1,6 @@
 # Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+# $Id$
 
 EAPI=5
 
@@ -10,7 +11,7 @@ inherit perl-module
 DESCRIPTION="Perl client Interface to SSH"
 
 SLOT="0"
-KEYWORDS="amd64 ~mips x86"
+KEYWORDS="amd64 ~mips ~ppc x86"
 IUSE=""
 
 DEPEND="

@@ -1,5 +1,6 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+# $Id$
 
 EAPI=5
 
@@ -11,6 +12,7 @@ MODULE_VERSION=0.39
 inherit wxwidgets perl-module
 
 DESCRIPTION="Scintilla source code editing component for wxWidgets"
+SRC_URI+=" https://dev.gentoo.org/~tove/distfiles/dev-perl/${PN}-0.34-patches.tar.gz"
 
 LICENSE+=" HPND"
 SLOT="0"
@@ -28,8 +30,7 @@ DEPEND="${RDEPEND}
 "
 
 PATCHES=(
-	"${FILESDIR}"/${PN}-0.34-flags.patch
-	"${FILESDIR}"/${PN}-0.39-gcc6.patch
+	"${WORKDIR}"/${PN}-patches/0.34-flags.patch
 )
 
 src_configure() {

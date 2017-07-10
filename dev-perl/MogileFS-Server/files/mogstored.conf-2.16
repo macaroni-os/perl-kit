@@ -1,3 +1,5 @@
+# $Id$
+
 # These are set inside the Gentoo conf.d/mogilefsd
 #pidfile = /var/run/mogile/mogstored.pid
 #daemonize = 1
