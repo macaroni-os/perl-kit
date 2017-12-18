@@ -1,6 +1,4 @@
-# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=5
 
@@ -9,7 +7,6 @@ MODULE_VERSION=6.06
 inherit perl-module
 
 DESCRIPTION="Provide https support for LWP::UserAgent"
-SRC_URI+=" https://dev.gentoo.org/~tove/distfiles/${CATEGORY}/${PN}/${PN}_ca-cert-r1.patch.gz"
 
 SLOT="0"
 IUSE=""
