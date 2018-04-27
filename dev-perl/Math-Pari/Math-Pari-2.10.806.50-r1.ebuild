@@ -24,8 +24,6 @@ IUSE=""
 # directory to where you build it. It does not need to compile it, but
 # it does need to be the same version as is installed, hence the hard
 # DEPEND below
-RDEPEND="~sci-mathematics/pari-${PARI_VER}"
-DEPEND="${RDEPEND}"
 
 S_PARI=${WORKDIR}/pari-${PARI_VER}
 SRC_TEST=do
