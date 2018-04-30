@@ -3,9 +3,9 @@ DEPEND=dev-lang/perl:= >=dev-vcs/git-1.8.2.1
 DESCRIPTION=Anonymous reporting tool for Funtoo Linux
 EAPI=6
 HOMEPAGE=https://github.com/haxmeister/funtoo-reporter
-IUSE=test
+IUSE=test bash-completion zsh-completion
 LICENSE=MIT
 RDEPEND=dev-perl/JSON sys-apps/pciutils dev-lang/perl:=
 SLOT=0
-_eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a	multiprocessing	cac3169468f893670dac3e7cb940e045	perl-functions	01e8c68d5a528bbcda4d3c60205983df	perl-module	863b35d127db98823d439f8d73c2d011
-_md5_=7dabd9904ce914a2e4a32a068c359ac5
+_eclasses_=bash-completion-r1	8e447753aaf658afa609fbf961d80ab7	git-r3	fec09a83ae965b041b47f5ff7c8ba29a	multilib	97f470f374f2e94ccab04a2fb21d811e	multiprocessing	cac3169468f893670dac3e7cb940e045	perl-functions	01e8c68d5a528bbcda4d3c60205983df	perl-module	863b35d127db98823d439f8d73c2d011	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
+_md5_=61fb579dcfa38f7c65030367c8b70469
