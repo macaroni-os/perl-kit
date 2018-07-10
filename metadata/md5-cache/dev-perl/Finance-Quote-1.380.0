@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=dev-perl/CGI virtual/perl-Carp dev-perl/DateTime virtual/perl-Encode virtual/perl-Exporter dev-perl/HTML-Parser dev-perl/HTML-TableExtract dev-perl/HTML-Tree dev-perl/HTTP-Cookies dev-perl/HTTP-Message dev-perl/JSON dev-perl/LWP-Protocol-https dev-perl/libwww-perl dev-perl/Mozilla-CA virtual/perl-Time-Piece dev-perl/URI dev-lang/perl:=
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/E/EC/ECOCODE/Finance-Quote-1.38.tar.gz
-_eclasses_=multiprocessing	cac3169468f893670dac3e7cb940e045	perl-functions	01e8c68d5a528bbcda4d3c60205983df	perl-module	863b35d127db98823d439f8d73c2d011
+_eclasses_=multiprocessing	cac3169468f893670dac3e7cb940e045	perl-functions	669a1227009eda227739e1621a158a4d	perl-module	b832e3f37aa64cbdd6f3e98274bef14b
 _md5_=44563cd82c21dee3187776eb53d8eb7e

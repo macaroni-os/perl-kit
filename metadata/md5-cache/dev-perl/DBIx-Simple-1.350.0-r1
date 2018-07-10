@@ -9,5 +9,5 @@ LICENSE=|| ( AFL-3.0 AGPL-3 APL-1.0 Apache-2.0 BSD-2 Boost-1.0 CDDL CPAL-1.0 EPL
 RDEPEND=>=dev-perl/DBI-1.210.0 dev-lang/perl:=
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/J/JU/JUERD/DBIx-Simple-1.35.tar.gz
-_eclasses_=multiprocessing	cac3169468f893670dac3e7cb940e045	perl-functions	01e8c68d5a528bbcda4d3c60205983df	perl-module	863b35d127db98823d439f8d73c2d011
+_eclasses_=multiprocessing	cac3169468f893670dac3e7cb940e045	perl-functions	669a1227009eda227739e1621a158a4d	perl-module	b832e3f37aa64cbdd6f3e98274bef14b
 _md5_=049e69431b9336fb857a0b83293c7673
