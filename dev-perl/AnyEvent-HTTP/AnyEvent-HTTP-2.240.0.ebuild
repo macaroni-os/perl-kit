@@ -3,17 +3,21 @@
 
 EAPI=6
 
-DIST_AUTHOR=BBB
-DIST_VERSION=1.16
+DIST_AUTHOR=MLEHMANN
+DIST_VERSION=2.24
 inherit perl-module
 
-DESCRIPTION="Manage IO on many file handles"
+DESCRIPTION="Simple but non-blocking HTTP/HTTPS client"
 
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 sparc ~x86 ~x86-fbsd"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-RDEPEND="virtual/perl-IO"
+RDEPEND="
+	>=dev-perl/AnyEvent-5.330.0
+	dev-perl/URI
+	>=dev-perl/common-sense-3.300.0
+"
 DEPEND="${RDEPEND}
 	virtual/perl-ExtUtils-MakeMaker
 "
