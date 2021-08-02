@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for Pod-Parser
+EAPI=7
+KEYWORDS=*
+RDEPEND=|| ( ~dev-perl/Pod-Parser-1.630.0 <dev-lang/perl-5.32 ) dev-lang/perl:= !perl-core/Pod-Parser
+SLOT=0
+_md5_=aea2b285ad6d75b8f0cd8ee2f4f0abeb

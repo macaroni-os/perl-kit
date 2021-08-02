@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for Math-BigRat
+EAPI=6
+KEYWORDS=*
+RDEPEND=|| ( =dev-lang/perl-5.32* =dev-lang/perl-5.30* ~perl-core/Math-BigRat-0.261.400 ) dev-lang/perl:= !<perl-core/Math-BigRat-0.261.400 !>perl-core/Math-BigRat-0.261.400-r999
+SLOT=0
+_md5_=fe6f09fde6603caa99b2aa896088bfc8

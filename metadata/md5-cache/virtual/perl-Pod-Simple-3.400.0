@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for Pod-Simple
+EAPI=7
+KEYWORDS=*
+RDEPEND=|| ( =dev-lang/perl-5.32* ~perl-core/Pod-Simple-3.400.0 ) dev-lang/perl:= !<perl-core/Pod-Simple-3.400.0 !>perl-core/Pod-Simple-3.400.0-r999
+SLOT=0
+_md5_=71d60b93ff59b7a1f1e88511814c5c2c

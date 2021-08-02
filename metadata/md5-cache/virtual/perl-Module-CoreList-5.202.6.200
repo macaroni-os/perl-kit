@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for Module-CoreList
+EAPI=6
+KEYWORDS=*
+RDEPEND=|| ( =dev-lang/perl-5.32.0* ~perl-core/Module-CoreList-5.202.6.200 ) dev-lang/perl:= !<perl-core/Module-CoreList-5.202.6.200 !>perl-core/Module-CoreList-5.202.6.200-r999
+SLOT=0
+_md5_=5c5ea0847cb74626280dfdbec643fd4f

@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for Net-Ping
+EAPI=7
+KEYWORDS=*
+RDEPEND=|| ( =dev-lang/perl-5.32* ~perl-core/Net-Ping-2.720.0 ) dev-lang/perl:= !<perl-core/Net-Ping-2.720.0 !>perl-core/Net-Ping-2.720.0-r999
+SLOT=0
+_md5_=b202144bbedcb4af5ea7d55b57e198b0
