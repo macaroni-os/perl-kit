@@ -1,10 +1,11 @@
 DEFINED_PHASES=install prepare unpack
-DEPEND=sys-apps/help2man >=dev-vcs/git-1.8.2.1
+DEPEND=sys-apps/help2man >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=User land tool for cleaning up old perl installs
 EAPI=6
 HOMEPAGE=https://www.gentoo.org/proj/en/perl/
 LICENSE=GPL-2
-RDEPEND=app-shells/bash dev-lang/perl || ( ( sys-apps/portage app-portage/portage-utils ) sys-apps/pkgcore sys-apps/paludis )
+PROPERTIES=live
+RDEPEND=app-shells/bash dev-lang/perl || ( ( sys-apps/portage app-portage/portage-utils ) ( sys-apps/portage-mgorny app-portage/portage-utils ) sys-apps/pkgcore )
 SLOT=0
-_eclasses_=git-r3	52a888802d25387c2c74cb845d1219bc	prefix	7b6fb2fc216b101b5d97d171925a847c
-_md5_=92e938e8b473a0fe766b98c4724ef07f
+_eclasses_=git-r3	7dcb8a92f5a091f13e82494fa317ca4b	prefix	e51c7882b7b721e54e684f7eb143cbfe
+_md5_=b8eb69d64098cf25db72f2636799b989
