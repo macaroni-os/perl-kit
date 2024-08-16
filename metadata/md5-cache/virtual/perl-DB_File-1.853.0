@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for DB_File
+EAPI=6
+KEYWORDS=*
+RDEPEND=|| ( =dev-lang/perl-5.32*[berkdb] ~perl-core/DB_File-1.853.0 ) dev-lang/perl:= !<perl-core/DB_File-1.853.0 !>perl-core/DB_File-1.853.0-r999
+SLOT=0
+_md5_=179efffc95b0301a36718886bec35634

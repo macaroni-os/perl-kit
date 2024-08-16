@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for Math-BigInt
+EAPI=6
+KEYWORDS=*
+RDEPEND=|| ( =dev-lang/perl-5.32* ~perl-core/Math-BigInt-1.999.818 ) dev-lang/perl:= !<perl-core/Math-BigInt-1.999.818 !>perl-core/Math-BigInt-1.999.818-r999
+SLOT=0
+_md5_=fdea11bb229055b3f6585719f237d160

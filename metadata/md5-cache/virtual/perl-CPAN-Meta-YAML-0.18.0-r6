@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for CPAN-Meta-YAML
+EAPI=6
+KEYWORDS=*
+RDEPEND=|| ( =dev-lang/perl-5.32* =dev-lang/perl-5.30* ~perl-core/CPAN-Meta-YAML-0.18.0 ) dev-lang/perl:= !<perl-core/CPAN-Meta-YAML-0.18.0 !>perl-core/CPAN-Meta-YAML-0.18.0-r999
+SLOT=0
+_md5_=fe6f09fde6603caa99b2aa896088bfc8

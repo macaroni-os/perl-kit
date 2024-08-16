@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for perl-core/Filter-Simple
+EAPI=7
+KEYWORDS=*
+RDEPEND=|| ( =dev-lang/perl-5.32* ~perl-core/Filter-Simple-0.960.0 ) dev-lang/perl:= !<perl-core/Filter-Simple-0.960.0 !>perl-core/Filter-Simple-0.960.0-r999
+SLOT=0
+_md5_=e849f5274a9ee8e952a95700b54d677f

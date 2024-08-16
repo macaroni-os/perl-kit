@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for Time-Piece
+EAPI=7
+KEYWORDS=*
+RDEPEND=|| ( =dev-lang/perl-5.32* ~perl-core/Time-Piece-1.340.100 ) dev-lang/perl:= !<perl-core/Time-Piece-1.340.100 !>perl-core/Time-Piece-1.340.100-r999
+SLOT=0
+_md5_=71d60b93ff59b7a1f1e88511814c5c2c

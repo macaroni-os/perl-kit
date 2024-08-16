@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=Virtual for Text::Tabs and Text::Wrap, also distributed as Text::Tabs+Wrap
+EAPI=7
+KEYWORDS=*
+RDEPEND=|| ( =dev-lang/perl-5.32* =dev-lang/perl-5.30* ~perl-core/Text-Tabs+Wrap-2013.52.300 ) dev-lang/perl:= !<perl-core/Text-Tabs+Wrap-2013.52.300 !>perl-core/Text-Tabs+Wrap-2013.52.300-r999
+SLOT=0
+_md5_=c209f1151e4a8df911de411832be59cf

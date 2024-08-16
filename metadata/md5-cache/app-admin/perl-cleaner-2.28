@@ -1,0 +1,11 @@
+DEFINED_PHASES=install prepare
+DESCRIPTION=User land tool for cleaning up old perl installs
+EAPI=6
+HOMEPAGE=https://www.gentoo.org/proj/en/perl/
+KEYWORDS=*
+LICENSE=GPL-2
+RDEPEND=app-shells/bash dev-lang/perl || ( ( sys-apps/portage app-portage/portage-utils ) sys-apps/pkgcore )
+SLOT=0
+SRC_URI=mirror://gentoo/perl-cleaner-2.28.tar.bz2 https://dev.gentoo.org/~dilfridge/distfiles/perl-cleaner-2.28.tar.bz2
+_eclasses_=prefix	e51c7882b7b721e54e684f7eb143cbfe
+_md5_=587982605254e4485faa3bbcdc7934dc
